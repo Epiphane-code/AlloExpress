@@ -356,7 +356,7 @@ main {
 }
 
 .intersection {
-    top: calc(80%);
+    top: calc(93%);
     left: calc(50%);
     width: 60px;
     height: 60px;
@@ -370,7 +370,7 @@ main {
     left: 50%;
     width: 200%;
     height: 15px;
-    animation: rigth-left 5s linear infinite;
+    animation: rigth-left 15s linear infinite;
     background-color: var(--color-principale);
     transform-origin: 0 7.5px;
 }
@@ -583,8 +583,11 @@ button {
         rotate: 0;
     }
 
+    50% {
+        rotate: -190deg;
+    }
     100% {
-        rotate: -380deg;
+        rotate: -360deg;
     }
 
 
@@ -600,8 +603,8 @@ button {
     }
 
     .presentation-card {
-        height: 20vh;
-        background-image: url(Assets/img/Design\ sans\ titre.png);
+        height: 10vh;
+        background-image: url(./assets/img/asn.png);
     }
 
 
