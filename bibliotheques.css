@@ -1,0 +1,160 @@
+/* FLEX-BOX ----------------------------------------------------------------------------------------*/
+.d-flex{
+    display: flex;
+}
+.fd-column{
+    flex-direction: column;
+}
+.fd-row{
+    flex-direction: row;
+}
+.ai-center{
+    align-items: center;
+}
+.ai-start{
+    align-items: flex-start;
+}
+.ai-end{
+    align-items: flex-end;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-start{
+    justify-content: flex-start;
+}
+.jc-around{
+    justify-content: space-around;
+}
+.jc-between{
+    justify-content: space-between;
+}
+.jc-evenly{
+    justify-content: space-evenly;
+}
+.jc-end{
+    justify-content: flex-end;
+}
+
+/* FLEX-GRID --------------------------------------------------------------------------------------- */
+.d-grid{
+    display: grid;
+}
+.js-center{
+    justify-self: center;
+}
+.js-start{
+    justify-self: flex-start;
+}
+.js-end{
+    justify-self: flex-end;
+}
+.as-center{
+    align-self: center;
+}
+.as-start{
+    align-self: flex-start;
+}
+.as-end{
+    align-self: flex-end;
+}
+.gt-columns-2{
+    grid-template-columns: 1fr 1fr;
+}
+.gt-columns-4{
+    grid-template-columns: repeat(4, 1fr);
+}
+.gt-columns-1-5{
+    grid-template-columns: 1fr 4fr;
+}
+.gt-columns-3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* Occupation d'espace --------------------------------------------------------------------------- */
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-3{
+    flex: 3;
+}
+.flex-4{
+    flex: 4;
+}
+.flex-5{
+    flex: 5;
+}
+.flex-6{
+    flex: 6;
+}
+.flex-7{
+    flex: 7;
+}
+.flex-8{
+    flex: 8;
+}
+.flex-9{
+    flex: 9;
+}
+/* POSITION-------------------------------------------------------------------------------------- */
+.position-absolute{
+    position: absolute;
+}
+.position-relative{
+    position: relative;
+}
+.position-fixed{
+    position: fixed;
+}
+/* COLORS --------------------------------------------------------------------------------------- */
+.color-white{
+    color: white;
+}
+.color-white2{
+    color: rgba(255, 255, 255, 0.7);
+}
+.shadow-white{
+     box-shadow: 1px 1px 1px 1px rgb(153, 225, 169);
+}
+
+.color-black{
+    color: black;
+}
+.color-yellow{
+    color: yellow;
+}
+.color-secondaire{
+    color: #16A49F;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-secondaire{
+    background-color: #16A49F;
+}
+.bg-principal{
+    background-color: #f3eded;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-none{
+    background-color: transparent;
+}
+.color-black{
+    color: black;
+}
+.color-blue{
+    color: blue;
+}
+.color-maroon{
+    color: rgb(77, 6, 6);
+}
+.color-or{
+    color: rgb(233, 143, 8);
+}
