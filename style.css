@@ -203,7 +203,7 @@ select {
 
 .search {
     padding: 5px 10px;
-    min-width: clamp(200px, 40%, 400px);
+    width: clamp(100px, 40%, 400px);
     height: 30px;
     gap: 10px;
     align-items: center;
@@ -224,6 +224,9 @@ select {
     transform: translateY(25%);
     animation: defilement 10s ease infinite;
 }
+.search .select-mobile .categorie-off{
+    display: flex;
+   }
 
 @container header-container (max-width: 600px) {
 
@@ -235,6 +238,15 @@ select {
     .select-mobile {
         display: flex;
     }
+}
+@container header-container (max-width: 430px) {
+
+   .search input {
+    width: 50px;
+   }
+   .search .select-mobile option .categorie-off{
+    display: none;
+   }
 }
 
 /* Presentation ------------------------------------------------------------------------------------ */
@@ -439,6 +451,9 @@ main {
     .container-offres,
 .container-suggestions {
     grid-template-columns: 1fr;
+}
+.gap-10{
+    gap: 3px;
 }
     
 }
