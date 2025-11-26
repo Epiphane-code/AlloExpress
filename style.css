@@ -35,14 +35,7 @@ body {
     border: none;
 }
 
-.floux {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--bg-body-transparent);
-}
+
 
 .tour {
     animation: tour 5s linear infinite;
@@ -348,10 +341,18 @@ main {
     position: relative;
     border-radius: 20px;
     overflow: hidden;
-    background-image: url(Assets/img/pexels-asphotography-230544.jpg);
+    background-image: url(./assets/img/pexels-asphotography-230544.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+.floux {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-body-transparent);
 }
 
 .intersection {
