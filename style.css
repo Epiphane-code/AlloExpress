@@ -275,13 +275,6 @@ main {
     margin-inline: auto;
     height: auto;
 }
-@media (max-width: 1256px) {
-   
-.presentation {
-    width: auto;
-}
-    
-}
 
 .side-bar-card {
     flex: 1;
@@ -341,11 +334,36 @@ main {
     position: relative;
     border-radius: 20px;
     overflow: hidden;
-    background-image: url(./assets/img/presentation.jpg);
+    background-image: url(assets/img/presentation.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+@media (max-width: 1256px) {
+   
+.presentation {
+    width: auto;
+}
+    
+}
+@media (max-width: 768px) {
+    .side-bar-card {
+        display: none;
+    }
+
+    .presentation {
+        height: auto;
+    }
+
+    .presentation-card {
+        width: 100%;
+        height: 10vh;
+        background-image: url(assets/img/asn.png);
+    }
+
+
+}
+
 .floux {
     position: absolute;
     top: 0;
@@ -593,22 +611,7 @@ button {
 
 }
 
-@media (max-width: 768px) {
-    .side-bar-card {
-        display: none;
-    }
 
-    .presentation {
-        height: auto;
-    }
-
-    .presentation-card {
-        height: 10vh;
-        background-image: url(assets/img/asn.png);
-    }
-
-
-}
 
 
 @keyframes translation-rigth {
