@@ -179,6 +179,13 @@ select {
     font-size: 1rem;
     cursor: pointer;
 }
+.menu-mobile-flex{
+    display: none;
+    font-size: 2rem;
+}
+.fa-circle-user{
+    font-size: 2rem;
+}
 
 .select-mobile {
     display: none;
@@ -238,6 +245,15 @@ select {
     .select-mobile {
         display: flex;
     }
+}
+@container header-container (max-width: 450px) {
+
+   .profile-icon, .nav-bar-list{
+    display: none;
+   }
+   .menu-mobile-flex{
+    display: flex;
+   }
 }
 @container header-container (max-width: 430px) {
 
@@ -452,8 +468,13 @@ main {
 .container-suggestions {
     grid-template-columns: 1fr;
 }
-.gap-10{
+.gap-10, .container-offres,
+.container-suggestions{
     gap: 3px;
+}
+
+button {
+    padding: 5px 10px;
 }
     
 }
@@ -512,7 +533,7 @@ main {
     border-radius: 20px;
     overflow: hidden;
     width:80%;
-    height: auto;
+    height: 55%;
 }
 
 .panier-produit {
